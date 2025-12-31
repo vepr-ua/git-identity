@@ -1,8 +1,15 @@
+//! Error types for git-identity operations.
+
+/// Errors that can occur when managing git identities.
 #[derive(Debug)]
 pub enum IdentityError {
+    /// The profiles config file was not found at `~/.git-identities/profiles`.
     ConfigNotFound,
+    /// The requested identity name does not exist in the profiles config.
     IdentityNotFound(String),
+    /// An I/O error occurred while reading or writing files.
     IO(std::io::Error),
+    /// A git operation failed (e.g., repository not found, config error).
     Git(git2::Error),
 }
 
