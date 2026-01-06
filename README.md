@@ -95,3 +95,7 @@ src/
 ## License
 
 [MIT](License)
+
+## Thanks
+Big thanks to Micah for the inspiration for this project. See Micah's blog post for
+[Setting Up Git Identities](https://www.micah.soy/posts/setting-up-git-identities/).
