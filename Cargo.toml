@@ -8,8 +8,8 @@ authors = ["Maksym Yadvinskyy <maks@revent.studio>"]
 categories = ["command-line-utilities"]
 keywords = ["git", "identity", "cli", "profile"]
 readme = "README.md"
-repository = ""
-homepage = ""
+repository = "https://github.com/vepr-ua/git-identity"
+homepage = "https://github.com/vepr-ua/git-identity"
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }

@@ -94,4 +94,4 @@ src/
 
 ## License
 
-(MIT)[License]
+[MIT](License)
