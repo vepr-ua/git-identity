@@ -2,6 +2,14 @@
 name = "git-identity"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+publish = ["crates-io"]
+authors = ["Maksym Yadvinskyy <maks@revent.studio>"]
+categories = ["command-line-utilities"]
+keywords = ["git", "identity", "cli", "profile"]
+readme = "README.md"
+repository = ""
+homepage = ""
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }

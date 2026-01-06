@@ -10,10 +10,21 @@ cargo install --path .
 
 ## Usage
 
+Use `git-indentity` command as it is or add a git alias!
+
+```
+[alias]
+  identity = !git-identity
+```
+
+
 ### List available identities
 
 ```bash
 git-identity list
+
+# or with git alias
+git identity list
 ```
 
 Output:
@@ -83,4 +94,4 @@ src/
 
 ## License
 
-MIT
+(MIT)[License]
