@@ -10,7 +10,11 @@ keywords = ["git", "identity", "cli", "profile"]
 readme = "README.md"
 repository = "https://github.com/vepr-ua/git-identity"
 homepage = "https://github.com/vepr-ua/git-identity"
+description = "A CLI tool for managing git identity profiles. Quickly switch between different git identities (name, email, signing key) on a per-repository basis."
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }
 git2 = "0.20.3"
+
+[[bin]]
+name = "git-identity"
